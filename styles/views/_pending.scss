@@ -1,0 +1,92 @@
+.selected-tag {
+  background-color: #358600;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tag {
+  background-color: #eee;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tag:hover {
+  background-color: #ddd;
+}
+
+.buttonColorRed {
+  color: #ffffff;
+  background-color: #f44336;
+}
+
+.buttonColorRed:hover {
+  background-color: #73201a;
+}
+
+.bold-value-textfield {
+  .MuiInputBase-input[disabled] {
+    color: black;
+  }
+}
+
+.avatar-class {
+  width: 200px;
+  height: 200px;
+}
+
+.address-column {
+  display: inline-block;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+}
+.no-scroll-dialog {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.input-search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.avatar-detail {
+  width: 200px;
+  height: 200px;
+}
+.employee-detail {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.no-scroll-dialog11 {
+  width: 100%;
+  overflow: hidden;
+}
+.red-color {
+  color: red;
+}
+.height-input {
+  height: 28px;
+}
+
+.button-center {
+  justify-content: center;
+}
+
+.MuiTabs-root {
+  & .MuiTab-root {
+    color: #7467ef !important;
+    font-size: 16px;
+  }
+  & .MuiTabs-indicator {
+    background-color: #7467ef !important;
+  }
+}

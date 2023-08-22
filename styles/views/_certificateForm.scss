@@ -1,0 +1,36 @@
+.root-degree {
+    display: flex;
+    justify-content: center;
+    background-color: #a7a1a1;
+    position: relative;
+  }
+  .background-degree {
+    overflow-y: auto;
+    padding: 6% 7%;
+    background-color: #ffffff;
+    width: 90%;
+    &.simple {
+      height: 70vh;
+    }
+  
+    &.vertical {
+      height: 78vh;
+    }
+  }
+.title-degree {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.field-column {
+  display: inline-block;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content-table {
+  text-align: left !important;
+}

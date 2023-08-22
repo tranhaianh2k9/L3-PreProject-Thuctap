@@ -1,0 +1,227 @@
+.paper {
+    display: flex;
+    justify-content: center;
+    background-color: #a7a1a1;
+    position: relative;
+  
+    .background {
+      overflow-y: auto;
+      padding: 6% 7%;
+      background-color: #ffffff;
+      width: 90%;
+  
+      &.simple {
+        height: 70vh;
+      }
+  
+      &.vertical {
+        height: 78vh;
+      }
+    }
+  
+    .flex-header {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+  
+    .header-right {
+      width: 100%;
+    }
+  
+    .font-style {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 18px;
+    }
+  
+    .font-style-date {
+      font-family: "Times New Roman", Times, serif;
+      width: 150px;
+      font-size: 21px;
+    }
+  
+    .font-weight {
+      font-weight: bold;
+      font-size: 20px;
+    }
+  
+    .bottom {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .button-action {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .text-of-form-manage {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  
+    .font-italic {
+      font-style: italic;
+    }
+  
+    .input-date-dotted,
+    .input-team-dotted,
+    .input-current-dotted,
+    .input-address-dotted,
+    .input-leaderName-dotted,
+    .input-name-dotted {
+      position: relative;
+      padding: 0px;
+      font-size: 21;
+  
+      input {
+        border: none;
+        outline: none;
+        text-align: left;
+        width: 34%;
+      }
+  
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 1px dotted rgb(100, 95, 95);
+        right: 0px;
+        bottom: 4px;
+      }
+    }
+  
+    .input-date-dotted {
+      input {
+        width: 30.1%;
+      }
+    }
+  
+    .input-name-dotted {
+      input {
+        width: 52%;
+      }
+    }
+  
+    .input-address-dotted {
+      input {
+        width: 94.3%;
+        text-align: left;
+      }
+    }
+  
+    .input-current-dotted {
+      input {
+        width: 44.3%;
+      }
+    }
+  
+    .input-leaderName-dotted {
+      input {
+        width: 84%;
+      }
+    }
+  
+    .info-block {
+      width: 100%;
+    }
+  
+    .input-endDay-dotted {
+      position: relative;
+      padding: 0px;
+      font-size: 23px;
+  
+      input {
+        border: none;
+        outline: none;
+        text-align: left;
+        width: 26%;
+        font-size: 18px;
+      }
+  
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 1px dotted rgb(100, 95, 95);
+        right: 0px;
+        bottom: 4px;
+      }
+    }
+  
+    .input-reason-dotted {
+      position: relative;
+      padding: 0px;
+      font-size: 23px;
+  
+      textarea {
+        width: 100%;
+        text-align: left;
+        resize: vertical;
+        border: none;
+        outline: none;
+      }
+  
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 1px dotted rgb(100, 95, 95);
+        right: 0px;
+        bottom: 4px;
+      }
+    }
+  
+    .additional-status,
+    .refuse-status {
+      color: #7467ef;
+      font-style: italic;
+      text-decoration: underline;
+      cursor: pointer;
+  
+      &.refuse-status {
+        color: #a31616;
+      }
+    }
+  
+    .current-dotted {
+      textarea {
+        line-height: 34px !important;
+        background-color: transparent !important;
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 9 6"><circle cx="2" cy="2" r="2" fill="black" /></svg>') !important;
+        background-position: 0 8px !important;
+        background-size: 2px 34px !important;
+        overflow: hidden !important;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+      }
+  
+      .MuiInput-underline {
+        &:before {
+          content: unset;
+        }
+  
+        &:after {
+          content: unset;
+        }
+      }
+  
+      &::before {
+        content: " ";
+        width: 100%;
+        height: 9px;
+        background-color: #fff;
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        z-index: 1;
+      }
+    }
+  
+    .span-footer {
+      margin-top: 60px;
+    }
+  }

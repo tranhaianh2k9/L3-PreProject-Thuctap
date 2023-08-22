@@ -1,0 +1,44 @@
+.tab-content {
+    background-color: rgba(227, 221, 221, 0.912);
+    padding: 80px 50px;
+    width: 75%;
+}
+.tab-content::-webkit-scrollbar {
+    width: 0;
+}
+.custom-dialog-title {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.hidden {
+    display: none;
+}
+.button-center-register {
+    justify-content: center;
+}
+.MuiTabs-root .MuiTabs-indicator {
+    background-color: #7467ef !important;
+}
+
+.custom-tab {
+    & .MuiTab-root {
+        color: #7467ef !important;
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+.title-custom-tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.decision-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #7467ef;
+}
+.dialog-content-custom {
+    padding: 16px 24px 16px 0px !important;
+}
